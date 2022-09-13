@@ -1,0 +1,21 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "1. Introduction\r 2. Install Tools\r 3. create React App\r 4. Create Git Repository\r 5. List Products\r    1. create products array\r    2. add product images\r    3. render products\r    4. style products\r 6. Add routing\r    1. npm i react-router-dom\r    2. create route for home screen\r    3. create route for product screen\r 7. Create Node.JS Server\r    1. run npm init in root folder\r    2. Update package.json set type: module (setiing type to module enables the use of IMPORT instead of REQUIRE)\r    3. Add .js to imports\r    4. npm install express\r    5. create server.js\r    6. add start command as node backend/server.js\r    7. require express\r    8. create route for / return backend is ready\r    9. move products.js from frontend to backend\r    10. create route for /api/products\r    11. return products\r    12. run npm start\r 8. Fetch Products from backend",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebishaya/mern-amazona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebishaya/mern-amazona/issues"
+  },
+  "homepage": "https://github.com/calebishaya/mern-amazona#readme"
+}
